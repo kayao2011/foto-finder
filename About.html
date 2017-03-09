@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>About Us</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link rel='stylesheet' type='text/css' href='About_Stylesheet.css'> 
+<link rel='stylesheet' type='text/css' href='Universal_Stylesheet.css'>
+
+<!-- Font sourced from Google Fonts -->
+<link href='//fonts.googleapis.com/css?family=Baloo Chettan' rel='stylesheet'>
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<header>
+
+<ul id="navbar_list">
+	<li class="navbar_item"><a href="#">About</a></li>
+	<li class="navbar_item"><a href="#">Creative Opportunities</a></li>
+	<li class="navbar_item"><a href="#">Political Opportunities</a></li>
+	<li class="navbar_item"><a href="#">Contact</a></li>
+</ul>
+
+
+	
+
+</header>
+
+
+<body>
+
+<div class="container">
+
+<div class= row>
+		<div class='col-sm-12 col-md-12'>
+			<div class='about_title'>
+			<h1>About Us</h1>
+			</div>
+		</div>
+</div>
+
+
+	<div class='row'>
+
+		<div class='col-sm-12'>
+		<h2>Who are we?</h2>
+		<p>Well, just like you we are 20 somethings bursting with creativity, curious about politics and itching to improve London through our creativity.
+		</p>
+		</div>
+
+	</div>
+
+		<div class ='row'>
+			<div class ='col-sm-6'> 
+			<h3>Our goal</h3>
+			<p>Is simple: We aim to connect young people in London with creative opportunities in the city</p>
+			</div>
+			<div class='col-sm-6'>
+			<h3>What we do</h3>
+			<p> There are 3 activities we do to help you: CV/application work shops, maintain an opporunities board, provide advice on creative careers</p>
+			</div>
+		</div>
+
+		<div class ='row'>
+			<div class='col-sm-6'>
+			<h3>Our locations</h3>
+			<p>Speak to us in person at one of our Greater London bases:</p>
+
+			<div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+			</div>
+
+			<div class='col-sm-6'>
+			<h3>Want more info?</h3>
+	
+			<p>Get in touch!</br>Please enter your details and complete the form below.</p>
+
+				<form>
+					<div class="form-group">
+						<label for="fname">Firstname:</label>
+						<input type="fname" class="form-control" id="fname" placeholder="Your name">
+					</div>
+					<div class="form-group">
+						<label for="lname">Surname:</label>
+						<input type="lname" class="form-control" id="lname" placeholder= Your lastname">
+					</div>
+					<div class="form-group">
+						<label for="email">Email address:</label>
+						<input type="email" class="form-control" id="email">
+					</div>>
+					<div class="form-group">
+						<label for="message">Message:</label>
+						<input type="textarea" class="form-control" id="message">
+					</div>
+					<div class="checkbox">
+						<label><input type="checkbox"> Subscribe to newsletter</label>
+					<div>
+					<button type="submit" class="btn btn-defalt">Submit</button>
+					<div>
+				</form>
+			</div>
+
+
+		
+	
+
+
+			</div>
+		</div>
+
+				
+		<h4>Follow us:</h4>
+		<p></p>
+</div>
+</body>
+
+
+</html>

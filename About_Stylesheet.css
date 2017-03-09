@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo Chettan');
+
+#navbar_list {
+  padding:  10px;
+  background: rgba(0,0,0,0.4);
+  font-family: Baloo Chettan;
+  font-size: 20px;
+  color: blue;
+  margin-bottom: 100px;
+
+}
+.navbar_item {
+  padding: 0px 10px 0px 10px;
+  display: inline;
+}
+
+h1 {
+	position:absolute;
+	font-family: Baloo Chettan; 
+	font-size: 150px;
+	top: 50px;
+	left: 90px;
+	font: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.6);
+}
+
+.about_title {
+	position: relative;
+	color: rgb(255, 230, 230);
+	border-radius: 100px 100px 100px 100px;
+	background: url("thecreativityofthepenolimpiazagnoli_2.jpg");
+	border: rgb(0, 0, 0) solid thick;
+	border-radius: 75px 75px 75px 75px;
+	text-align: center;
+	box-sizing: 800px 400px;
+	height: 300px;
+	width: 800px;
+	margin: 0 auto;
+}
+
+#about_image{
+	border-radius: 75px 75px 75px 75px;
+	max-width: 500px;
+}
+
+h2{
+	font-family: Baloo Chettan;
+	font-family: 200px;
+
+}
+
+h3{
+	font-family: Baloo Chettan;
+	font-size: 30px;
+	text-align: center;
+}
+
+.col-sm-6{
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-bottom: 50px;
+	text-align: justify;
+	column-rule: 4px solid #ff00ff;
+}
+
+.col-sm-12{
+	margin-bottom: 25px;
+	margin-top: 25px;
+	text-align: center;
+}
+
+
