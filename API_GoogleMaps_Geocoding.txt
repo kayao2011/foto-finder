@@ -1,0 +1,26 @@
+GOOGLE MASP Geo-coding API
+
+API KEY:
+
+AIzaSyAW_JNzp_77CfsCy822tjx6XYs5wfoWeX8
+
+API MANAGER:
+
+https://console.developers.google.com/apis/credentials/key/3?project=creativecampus-1489246712418&pli=1
+
+
+The following example requests the latitude and longitude of "1600 Amphitheatre Parkway, Mountain View, CA", and specifies that the output must be in JSON format.
+
+https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=YOUR_API_KEY
+
+
+4/5 Elephant Rd, London SE17 1LB
+
+
+https://maps.googleapis.com/maps/api/geocode/json?address=4/5+Elephant+Rd,+London,+SE17+1LB&key=AIzaSyBl6e17lASsHH1paI1q1-m2BuYi7uoCo2w
+
+
+
+
+https://maps.googleapis.com/maps/api/staticmap?center=corsica+studios,+Elephant+Road,+London&zoom=13&size=400x400&
+markers=color:blue%7Clabel:S%7C11211%7C11206%7C11222&key=AIzaSyBl6e17lASsHH1paI1q1-m2BuYi7uoCo2w

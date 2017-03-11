@@ -1,0 +1,30 @@
+.about_title {
+	position: relative;
+	color: rgb(255, 230, 230);
+	border-radius: 100px 100px 100px 100px;
+	border: rgb(0, 0, 0) solid thick;
+	border-radius: 75px 75px 75px 75px;
+	text-align: center;
+	box-sizing: 800px 400px;
+	height: 250px;
+	width: 700px;
+	margin: 0 auto;
+}
+
+
+h1 {
+	position:absolute;
+	font-family: Baloo Chettan; 
+	font-size: 75px;
+	top: 50px;
+	left: 90px;
+	font: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.6);
+}
+
+
+
+#about_image{
+	border-radius: 75px 75px 75px 75px;
+	max-width: 500px;
+}
