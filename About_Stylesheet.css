@@ -7,6 +7,7 @@
   font-size: 20px;
   color: blue;
   margin-bottom: 100px;
+  box-shadow: 2px 2px white;
 }
 .navbar_item {
   padding: 0px 10px 0px 10px;
@@ -15,6 +16,7 @@
 
 #social-nav{
 	margin-left: 500px;
+	position: fixed;
 }
 
 .fa {
@@ -37,15 +39,61 @@
 	color: white;
 }
 
+#girls_left {
+	display: block;
+	margin: auto;
+	max-height: 250px;
+	border-radius: 50%;
+	border: white dotted thick;
+	box-shadow: 5px 5px rgba(172, 57, 115, 0.5);
+}
+
+#girls_right {
+	display: block;
+	margin: auto;
+	max-height: 250px;
+	border-radius: 50%;
+	border: white dotted thick;
+	box-shadow: 5px 5px rgba(172, 57, 115, 0.5);
+}
+
+#girls_centre {
+	display: block;
+	margin: auto;
+	max-height: 250px;
+	border-radius: 50%;
+	border: white solid thick;
+}
+
+
+
+#vote{
+	display: block;
+	margin: auto;
+	max-height: 300px;
+	border-radius: 400px;
+}
+
 body{
 	background-image: url("Building-Glass-Architecture-Modern-Facade-1862638_darkened.jpg");
 	background-size: cover;
 	color: white;
 }
 
+#about_text{
+	font-family: Baloo Chettan;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 2px 2px black;
+	letter-spacing: 2px;
+}
+
+
 h2{
 	font-family: Baloo Chettan;
 	font-family: 200px;
+	text-shadow: 2px 2px #ac3973;
+	letter-spacing: 2px;
 
 }
 
@@ -53,6 +101,13 @@ h3{
 	font-family: Baloo Chettan;
 	font-size: 30px;
 	text-align: center;
+	text-shadow: 2px 2px black;
+	letter-spacing: 2px;
+
+}
+
+p{
+	padding-top: 100px;
 }
 
 .col-sm-6{
@@ -60,7 +115,10 @@ h3{
 	padding-right: 50px;
 	margin-bottom: 50px;
 	text-align: justify;
-	column-rule: 4px solid #ff00ff;
+}
+
+#column_rule{
+	column-rule: 4px outset #ff00ff;
 }
 
 .col-sm-12{
@@ -72,4 +130,28 @@ h3{
 iframe{
 	width: 400px;
 	height: 400px;
+	display: block;
+	margin: auto;
+	margin-top: 100px;
+	border:2px white dotted;
+}
+
+#contact_form{
+	font-size: 22px;
+	font-family: Baloo Chettan;
+	text-shadow: 2px 2px #ac3973;
+	letter-spacing: 2px;
+}
+
+#contact_section{
+	margin-top: 100px;
+}
+
+.button{
+	background-color: pink;
+}
+
+#twitter_widget {
+	display: block;
+	margin: auto;
 }
