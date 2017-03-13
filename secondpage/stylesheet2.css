@@ -1,0 +1,34 @@
+
+
+
+
+h3 {
+  font-family: 'Cabin Sketch', cursive;
+  text-align: center;
+  font-size: 65px;
+  margin: 60px 0 0 0;
+  color: #000000;
+  padding-bottom: 15px;
+  padding-top: -15px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  color: #aaaaaa;
+  max-width: 10,000px;
+  background: gray; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#808080, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#808080, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#808080, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#808080 white); /* Standard syntax */
+}
+
+.col-sm-4 {
+  font-family: 'Cabin Sketch', cursive;
+  color: black;
+  font-size: 30px;
+}
+
+
+
