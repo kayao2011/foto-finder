@@ -8,15 +8,20 @@
   color: blue;
   margin-bottom: 100px;
   box-shadow: 2px 2px white;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
 }
 .navbar_item {
   padding: 0px 10px 0px 10px;
   display: inline;
+  position: relative;
 }
 
 #social-nav{
-	margin-left: 500px;
-	position: fixed;
+	position: relative;
+	padding-left: 600px;
+	padding-right: 50px;
 }
 
 .fa {
@@ -28,7 +33,7 @@
  }
 
 .fa:hover {
-    opacity: 0.7;
+    color: #ac3973
 }
 
 .fa-facebook {
@@ -37,6 +42,14 @@
 
 .fa-twitter{
 	color: white;
+}
+
+.fa-home{
+	color:#ac3973;
+}
+
+.fa-home:hover{
+	color: #00cc00;
 }
 
 #girls_left {
@@ -65,7 +78,6 @@
 	border: white solid thick;
 }
 
-}
 
 body{
 	background-image: url("Building-Glass-Architecture-Modern-Facade-1862638_darkened.jpg");
@@ -79,6 +91,7 @@ body{
 	text-align: center;
 	text-shadow: 2px 2px black;
 	letter-spacing: 2px;
+	text-decoration: underline;
 }
 
 
@@ -111,10 +124,10 @@ p{
 }
 
 #column_rule{
-	column-rule: 4px outset #ff00ff;
+	-webkit-column-rule: 4px outset #ff00ff;
 }
 
-.col-sm-12{
+.col-sm-12 {
 	margin-bottom: 25px;
 	margin-top: 25px;
 	text-align: center;
@@ -122,8 +135,10 @@ p{
 
 #campus_address{
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 90px;
 	text-decoration: underline;
+	color: white;
+	text-shadow: 2px 2px #ac3973;
 }
 
 iframe{
@@ -131,12 +146,8 @@ iframe{
 	height: 400px;
 	display: block;
 	margin: auto;
-	margin-top: 50px;
+	margin-top: 10px;
 	border-radius: 25px 25px 25px 25px;
-}
-
-#map_container{
-	border:2px white dotted;
 	padding: auto;
 }
 
@@ -158,4 +169,5 @@ iframe{
 #twitter_widget {
 	display: block;
 	margin: auto;
+	margin-top: 10px;
 }

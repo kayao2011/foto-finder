@@ -1,0 +1,11 @@
+Navbar CSS
+***
+
+Prevent links from being underlined when hovering:
+
+.navbar_item:hover, .navbar_item:visit, .navbar_item:link, .navbar_item:active{
+	text-decoration: none;
+}
+
+
+---the above didn't work when tested

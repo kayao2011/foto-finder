@@ -1,0 +1,11 @@
+Google Map container CSS
+
+#map_container{
+	border: white dotted thick;
+	border-radius: 25px 25px 25px 25px;
+	padding: auto;
+	width: 404px;
+	height: 404px;
+	display: block;
+	margin: auto;
+	margin-top: 50px;
