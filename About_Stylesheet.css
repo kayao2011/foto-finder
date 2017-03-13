@@ -65,13 +65,6 @@
 	border: white solid thick;
 }
 
-
-
-#vote{
-	display: block;
-	margin: auto;
-	max-height: 300px;
-	border-radius: 400px;
 }
 
 body{
@@ -127,13 +120,24 @@ p{
 	text-align: center;
 }
 
+#campus_address{
+	text-align: center;
+	padding-top: 50px;
+	text-decoration: underline;
+}
+
 iframe{
 	width: 400px;
 	height: 400px;
 	display: block;
 	margin: auto;
-	margin-top: 100px;
+	margin-top: 50px;
+	border-radius: 25px 25px 25px 25px;
+}
+
+#map_container{
 	border:2px white dotted;
+	padding: auto;
 }
 
 #contact_form{
